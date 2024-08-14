@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Página de Login</h1>
+    </header>
+    <div class="container" id="cont">
+        <form action="loginadmin.php" method="post">
+            <table>
+                <tr>
+                    <th>Usuário</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div>
+                            <label for="usuario"></label>
+                            <input type="text" name="usuario" id="usuario">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Senha</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div>
+                            <label for="senha"></label>
+                            <input type="password" name="senha" id="senha">
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <div class="login">
+                <button id="botaologin">Login</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

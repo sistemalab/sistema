@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Página de Login</h1>
+    </header>
+    <div class="container" id="cont">
+        <form action="indexloginprof.php" method="post">
+        <table>
+            <tr>
+                <th>SIAPE</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="ajeitar">
+                        <label for="siape"></label>
+                        <input type="number" name="siape" id="siape">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th>Senha</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="ajeitar">
+                        <label for="senha"></label>
+                        <input type="password" name="senha" id="senha">
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="login">
+            <button id="botaologin">Login</button>
+        </div>
+    </form>
+    </div>
+</body>
+</html>

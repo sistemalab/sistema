@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remover Laboratório</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Remover Laboratório</h1>
+    </header>
+    
+    <nav class="menu">
+        <a href="addLab.html">Adicionar Laboratório</a>
+        <a href="logicaRemoverlab.php">Remover Laboratório</a>
+        <a href="logicaStatuslab.php">Status do Laboratório</a>
+        <a href="addProf.html">Adicionar Professor</a>
+        <a href="remProf.html">Remover Professor</a>
+    </nav>
+    
+    <div class="container">
+        <form action="logicaRemoverlab.php" method="post">
+            <table class="tabelaRemover">
+                <tr>
+                    <th>
+                        <label for="numero_lab">Selecionar Laboratório:</label>
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="lab38">Laboratório 38</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="labs[]" value="38" id="lab38">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="lab40">Laboratório 40</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="labs[]" value="40" id="lab40">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="lab44">Laboratório 44</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="labs[]" value="44" id="lab44">
+                    </td>
+                </tr>
+            </table>
+            <div id="botaoRem">
+                <button type="submit">Remover Laboratório</button>
+                <a class="botaolink" href="telaadm.html">Voltar para tela principal</a>
+            </div>
+    </div>
+    </form>
+</body>
+</html>
